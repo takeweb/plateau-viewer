@@ -2,9 +2,7 @@
   "buildCommand": "pnpm run generate",
   "outputDirectory": ".output/public",
   "framework": "nuxtjs",
-  "regions": ["nrt1"],
   "env": {
-    "NUXT_PUBLIC_CESIUM_ION_TOKEN": "@cesium-ion-token",
-    "NUXT_PUBLIC_PLATEAU_ASSETS": "@plateau-assets"
+    "NUXT_PUBLIC_CESIUM_ION_TOKEN": "@cesium-ion-token"
   }
 }
