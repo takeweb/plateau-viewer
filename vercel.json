@@ -1,8 +1,5 @@
 {
   "buildCommand": "pnpm run generate",
   "outputDirectory": ".output/public",
-  "framework": "nuxtjs",
-  "env": {
-    "NUXT_PUBLIC_CESIUM_ION_TOKEN": "@cesium-ion-token"
-  }
+  "framework": "nuxtjs"
 }
