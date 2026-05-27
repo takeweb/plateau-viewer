@@ -1,0 +1,89 @@
+{
+  "defaultLayer": "Kawasaki-14131-buildings",
+  "assets": [
+    {
+      "id": "NewYork-buildings",
+      "name": "US/New York",
+      "assetId": 75343,
+      "viewState": { "longitude": -73.9857, "latitude": 40.7484, "zoom": 16, "pitch": 45, "bearing": 0 }
+    },
+    {
+      "id": "Boston-buildings",
+      "name": "US/Boston",
+      "assetId": 354759,
+      "viewState": { "longitude": -71.0589, "latitude": 42.3601, "zoom": 16, "pitch": 45, "bearing": 0 }
+    },
+    {
+      "id": "San-Francisco-buildings",
+      "name": "US/San Francisco",
+      "assetId": 1415196,
+      "viewState": { "longitude": -122.4194, "latitude": 37.7749, "zoom": 16, "pitch": 45, "bearing": 0 }
+    },
+    {
+      "id": "Sydney-buildings",
+      "name": "AU/Sydney",
+      "assetId": 2644092,
+      "viewState": { "longitude": 151.2093, "latitude": -33.8688, "zoom": 16, "pitch": 45, "bearing": 0 }
+    },
+    {
+      "id": "Melbourne-buildings",
+      "name": "AU/Melbourne",
+      "assetId": 69380,
+      "viewState": { "longitude": 144.9631, "latitude": -37.8136, "zoom": 16, "pitch": 45, "bearing": 0 }
+    },
+    {
+      "id": "Kawasaki-14131-buildings",
+      "name": "JP/神奈川県/川崎市/川崎区",
+      "assetId": 4844530,
+      "viewState": { "longitude": 139.7029, "latitude": 35.5308, "zoom": 16, "pitch": 45, "bearing": 0 }
+    },
+    {
+      "id": "Kawasaki-14132-buildings",
+      "name": "JP/神奈川県/川崎市/幸区",
+      "assetId": 4844648,
+      "viewState": { "longitude": 139.6907, "latitude": 35.5475, "zoom": 16, "pitch": 45, "bearing": 0 }
+    },
+    {
+      "id": "Kawasaki-14133-buildings",
+      "name": "JP/神奈川県/川崎市/中原区",
+      "assetId": 4844785,
+      "viewState": { "longitude": 139.6597, "latitude": 35.5762, "zoom": 16, "pitch": 45, "bearing": 0 }
+    },
+    {
+      "id": "Kawasaki-14134-buildings",
+      "name": "JP/神奈川県/川崎市/高津区",
+      "assetId": 4844791,
+      "viewState": { "longitude": 139.6201, "latitude": 35.6010, "zoom": 16, "pitch": 45, "bearing": 0 }
+    },
+    {
+      "id": "Kawasaki-14135-buildings",
+      "name": "JP/神奈川県/川崎市/多摩区",
+      "assetId": 4844850,
+      "viewState": { "longitude": 139.5800, "latitude": 35.6197, "zoom": 16, "pitch": 45, "bearing": 0 }
+    },
+    {
+      "id": "Kawasaki-14136-buildings",
+      "name": "JP/神奈川県/川崎市/宮前区",
+      "assetId": 4844855,
+      "viewState": { "longitude": 139.5929, "latitude": 35.5793, "zoom": 16, "pitch": 45, "bearing": 0 }
+    },
+    {
+      "id": "Kawasaki-14137-buildings",
+      "name": "JP/神奈川県/川崎市/麻生区",
+      "assetId": 4844856,
+      "viewState": { "longitude": 139.50583832620208, "latitude": 35.6039345367165, "zoom": 16, "pitch": 45, "bearing": 0 }
+    },
+    {
+      "id": "WashingtonState-buildings",
+      "name": "US/Washington State",
+      "assetId": 57590,
+      "viewState": { "longitude": -122.3321, "latitude": 47.6062, "zoom": 16, "pitch": 45, "bearing": 0 }
+    },
+    {
+      "id": "WashingtonDC-buildings",
+      "name": "US/Washington DC",
+      "assetId": 57588,
+      "viewState": { "longitude": -77.0369, "latitude": 38.9072, "zoom": 16, "pitch": 45, "bearing": 0 }
+    }
+  ]
+}

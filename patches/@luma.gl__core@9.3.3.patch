@@ -1,0 +1,64 @@
+diff --git a/dist/index.cjs b/dist/index.cjs
+index bc877886f4b0ea380d47bde2def6e72b54d08f09..1c1cfeb8fe9968d7ffe84608292c2f435663ecb4 100644
+--- a/dist/index.cjs
++++ b/dist/index.cjs
+@@ -741,8 +741,11 @@ var VertexFormatDecoder = class {
+         return `${dataType}x${components}`;
+       case "uint8":
+       case "sint8":
+-        if (components === 1 || components === 3) {
+-          throw new Error(`size: ${components}`);
++        if (components === 1) {
++          return dataType;
++        }
++        if (components === 3) {
++          return `${dataType}x4`;
+         }
+         return `${dataType}x${components}`;
+       case "uint16":
+@@ -778,8 +781,11 @@ var VertexFormatDecoder = class {
+         }
+         return `${dataType}x${components}`;
+       case "float16":
+-        if (components === 1 || components === 3) {
+-          throw new Error(`size: ${components}`);
++        if (components === 1) {
++          return dataType;
++        }
++        if (components === 3) {
++          return `${dataType}x4`;
+         }
+         return `${dataType}x${components}`;
+       default:
+diff --git a/dist/shadertypes/vertex-types/vertex-format-decoder.js b/dist/shadertypes/vertex-types/vertex-format-decoder.js
+index 0000000000000000000000000000000000000000..0000000000000000000000000000000000000001 100644
+--- a/dist/shadertypes/vertex-types/vertex-format-decoder.js
++++ b/dist/shadertypes/vertex-types/vertex-format-decoder.js
+@@ -56,8 +56,11 @@ export class VertexFormatDecoder {
+                 return `${dataType}x${components}`;
+             case 'uint8':
+             case 'sint8':
+-                if (components === 1 || components === 3) {
+-                    throw new Error(`size: ${components}`);
++                if (components === 1) {
++                    return dataType;
++                }
++                if (components === 3) {
++                    return `${dataType}x4`;
+                 }
+                 return `${dataType}x${components}`;
+             case 'uint16':
+@@ -95,8 +98,11 @@ export class VertexFormatDecoder {
+                 return `${dataType}x${components}`;
+             case 'float16':
+                 // WebGPU 16 bit formats must be aligned to 32 bit boundaries
+-                if (components === 1 || components === 3) {
+-                    throw new Error(`size: ${components}`);
++                if (components === 1) {
++                    return dataType;
++                }
++                if (components === 3) {
++                    return `${dataType}x4`;
+                 }
+                 return `${dataType}x${components}`;
+             default:

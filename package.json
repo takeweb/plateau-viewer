@@ -1,0 +1,39 @@
+{
+  "name": "plateau-viewer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "format": "biome format --write .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@deck.gl/core": "^9.1.0",
+    "@deck.gl/geo-layers": "^9.1.0",
+    "@deck.gl/layers": "^9.1.0",
+    "@loaders.gl/3d-tiles": "^4.4.0",
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "nuxt": "^4.4.0"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "@luma.gl/core@9.3.3": "patches/@luma.gl__core@9.3.3.patch"
+    }
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.0",
+    "@nuxt/test-utils": "^4.0.0",
+    "@vue/test-utils": "^2.4.0",
+    "happy-dom": "^15.11.0",
+    "typescript": "^5.7.0",
+    "vitest": "^4.1.0",
+    "vue-tsc": "^2.1.0"
+  }
+}
